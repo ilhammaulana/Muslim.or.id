@@ -1,0 +1,99 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="description" content="How to get Six Pack Abs">
+  <meta name="keywords" content="health,exercise,workout,six pack abs,tutorial,fitness,nutrition,diet,fat,muscle">
+  
+  <title>Six Pack Abs for Sure!</title>
+  
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
+  <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+  <script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
+  <script type="text/javascript" charset="utf-8" src="cordova-2.3.0.js"></script>
+  
+  <script type="text/javascript" charset="utf-8">  
+    document.addEventListener("deviceReady", deviceReady, false);
+
+	function deviceReady() {
+  		//deviceReadyDeferred.resolve();
+  		navigator.splashscreen.show();
+  		//document.addEventListener("backbutton", onBackKeyDown, true);  		
+	}
+	
+	//--- START: FUNCT CALL -------------------------------------   
+    function GoToTop()
+    {
+    	$(window).scrollTop(0);
+    }
+    //--- END FUNCT CALL -----------------------------------------
+	      
+  	$(document).ready(function() {
+      $("#btnExit").click(function() {
+          //alert("clicked");
+          if (confirm("Exit?")) {
+                navigator.app.exitApp();
+            }          
+      });
+          
+      $.extend(  $.mobile , {
+   	  	defaultPageTransition: 'none'
+  	  });  	    	  
+  	});		
+	
+  </script>
+    
+</head> 
+<body> 
+
+<div data-role="page" id="list" data-theme="d">' +
+	
+	<div data-role="header" data-theme="d" data-position="fixed">
+  		<a href="index.html" data-role="button" data-icon="home" data-theme="d" data-ajax="false">Home</a>
+    	<h1>Tentang Kami</h1>
+  		<a href="#" class="ui-btn-right" onClick="GoToTop()" data-role="button" data-icon="arrow-u" data-ajax="false">Top</a>
+    </div>
+	
+	<div data-role="content">
+		<p>Assalamu’alaikum warahmatullahi wabarakaatuh</p>
+		<p>Muslim.or.id adalah situs yang dikelola oleh mahasiswa dan alumni di Yogyakarta dan sekitarnya. Muslim.or.id berusaha menyebarkan dakwah Islamiyyah Ahlu Sunah wal Jama’ah di jagad maya. Moto Muslim.or.id adalah “Memurnikan Aqidah, Menebarkan Sunah”.</p>
+		<p>Kami mengambil moto “Memurnikan Aqidah” karena banyaknya kerancuan-kerancuan yang tersebar di kalangan masyarakat, khususnya di negeri kita tercinta ini, tentang Aqidah Islamiyyah. Ibadah yang seharusnya dipersembahkan hanya kepada Allah subhanahu wa ta’ala telah dipalingkan pada selain Allah subhanahu wa ta’ala. Kesyirikan tersebar merajalela, sampai-sampai orang-orang yang telah dijuluki dengan sederetan titel dunia pun tidak luput dari virus yang sangat ganas ini. Masalah paling besar di balik itu semua adalah bahwa kesyirikan akan membuat pelakunya kekal selama-lamanya di dalam neraka. Hanya satu hal yang bisa mencegah itu semua yaitu dakwah dengan memurnikan aqidah, menjadikan Allah subhanahu wa ta’ala sebagai satu-satunya sesembahan dan tidak memalingkan segala macam ibadah baik perbuatan anggota badan, lisan dan perbuatan hati pada selain Allah subhanahu wa ta’ala.</p>
+		<p>Kami pun mengambil moto “Menebarkan Sunah” karena merajalelanya berbagai macam ibadah yang tidak bersumber dari ajaran Rasulullah shallallahu ‘alaihi wa sallam. Dan sekali lagi, hal itu tersebar di seluruh lapisan masyarakat yang tua maupun yang muda. Rasulullah shallallahu ‘alaihi wa sallam telah memperingati umat islam tentang bahaya bid’ah, bahwasanya amal ibadah yang tidak dilakukan berdasarkan petunjuk beliau shallallahu ‘alaihi wa sallam tertolak di sisi Allah subhanahu wa ta’ala. Para ulama pun telah memperingati bahaya bid’ah, bahkan mereka menyebutkan bahwa bid’ah lebih disukai oleh iblis dibandingkan kemaksiatan, karena pelaku bid’ah lebih sulit untuk bertaubat dibandingkan seorang maksiat. Hal ini terjadi karena pelaku bid’ah akan menganggap perbuatannya adalah kebaikan, akan tetapi pelaku maksiat sebaliknya menyadari bahwa dia melakukan perbuatan dosa.</p>
+		<p>Tersebarnya perbuatan bid’ah dengan merata ini semakin diperparah dengan hilangnya berbagai macam sunnah. Kaum muslimin sudah banyak yang meninggalkan sunnah Rasul mereka Muhammad shallallahu ‘alaihi wa sallam, bahkan mencemooh orang-orang yang melaksanakan sunah. Berapa banyak kaum muslimin yang memelihara dan memanjangkan janggut karena mengikuti sunnah Rasulullah shallallahu ‘alaihi wa sallam dan berapa banyak pula kaum muslimin yang mencela orang-orang yang memelihara dan memanjangkan janggut. Demikianlah, hal ini sudah diperingatkan oleh para ulama salaf (ulama-ulama terdahulu) bahwa ketika bid’ah hidup pada suatu masa maka akan matilah satu sunnah yang serupa. Oleh karena itu kami menempuh jalan dakwah dengan menyebarkan sunnah Rasulullah shallallahu ‘alaihi wa sallam dengan harapan tersebarnya sunnah Rasul shallallahu ‘alaihi wa sallam dan matinya bid’ah-bid’ah yang tersebar di kalangan manusia.</p>
+		<p>Dalam mengelola sesuatu, tentunya dibutuhkan pengorganisasian yang jelas. Termasuk dalam hal mengelola situs ini, dalam pengelolaannya kami dibantu oleh beberapa orang tim sebagai berikut:</p>
+		<p>
+			Penasehat
+			<br>Ust. Abu Husham Muhammad Nur Huda
+		</p>
+		<p>
+			Penanggung Jawab
+			<br>Adika Mianoki
+			<br>(Ketua Yayasan Pendidikan Islam Al-Atsari)		
+		</p>
+		<p>
+			Wakil Ketua Bidang Humas
+			<br>Abu Fatah Amrullah Akadhinta
+		</p>
+		<p>
+			Koordinator Umum
+			<br>Wiwit Hardi Priyanto
+		</p>
+		<p>
+			Keredaksian
+			<br>Muhammad Abduh Tuasikal
+		</p>
+		<p>
+			Keuangan & Periklanan
+			<br>Abu Sa’id Satria Buana
+		</p>
+		<p>
+			Pemasaran & Operasional
+Yulian Purnama
+		</p>
+		<p>
+		
+		</p>
+	</div>
+
+</body>
+</html>

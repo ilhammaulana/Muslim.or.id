@@ -1,0 +1,148 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="description" content="How to get Six Pack Abs">
+  <meta name="keywords" content="health,exercise,workout,six pack abs,tutorial,fitness,nutrition,diet,fat,muscle">
+  
+  <title>Six Pack Abs for Sure!</title>
+  
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
+  <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+  <script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
+  <script type="text/javascript" charset="utf-8" src="cordova-2.3.0.js"></script>
+  
+  <script type="text/javascript" charset="utf-8">  
+    document.addEventListener("deviceReady", deviceReady, false);
+
+	function deviceReady() {
+  		//deviceReadyDeferred.resolve();
+  		navigator.splashscreen.show();
+  		//document.addEventListener("backbutton", onBackKeyDown, true);  		
+	}
+	
+	//--- START: FUNCT CALL -------------------------------------
+	function callCalculator()
+    {
+    	window.location = "calculator.html";
+    }
+        
+    //--- END FUNCT CALL -----------------------------------------
+	      
+  	$(document).ready(function() {
+      $("#btnExit").click(function() {
+          //alert("clicked");
+          if (confirm("Exit?")) {
+                navigator.app.exitApp();
+            }          
+      });
+          
+      $.extend(  $.mobile , {
+   	  	defaultPageTransition: 'none'
+  	  });  
+	  
+  	});
+		
+  	<!--
+  	google_ad_client = "ca-pub-2138779653385044";
+	/* mobile */
+	google_ad_slot = "9270948851";
+	google_ad_width = 320;
+	google_ad_height = 50;
+	//-->
+	
+  </script>
+  
+</head> 
+<body> 
+
+<div data-role="page">
+	<div data-role="header">
+		<center><img src="img/logomuslim.png"></center>
+	</div>
+	
+	<div data-role="content">
+	
+		<div data-role="collapsible-set" data-theme="b">
+		
+			<div data-role="collapsible">
+				<h3>SEMUA KATEGORI</h3>	
+				<ul data-role="listview">
+					<li><a href="all.html" data-ajax="false">Semua Kategori</a></li>
+				</ul>	
+			</div>
+			
+			<div data-role="collapsible">
+				<h3>Landasan Agama</h3>	
+				<ul data-role="listview">
+					<li><a href="aqidah.html" data-ajax="false">Aqidah</a></li>
+					<li><a href="manhaj.html" data-ajax="false">Manhaj</a></li>
+					<li><a href="alquran.html" data-ajax="false">Al-Qur'an</a></li>
+					<li><a href="hadits.html" data-ajax="false">Hadits</a></li>
+					<li><a href="akhlaq.html" data-ajax="false">Akhlaq</a></li>
+					<li><a href="tafsir.html" data-ajax="false">Tafsir</a></li>
+				</ul>	
+			</div>
+			
+			<div data-role="collapsible">
+				<h3>Fiqih & Muamalah</h3>	
+				<ul data-role="listview">
+					<li><a href="fiqih.html" data-ajax="false">Fiqih</a></li>
+					<li><a href="doa.html" data-ajax="false">Do'a & Dzikir</a></li>
+					<li><a href="ramadhan.html" data-ajax="false">Ramadhan</a></li>
+				</ul>	
+			</div>
+			
+			<div data-role="collapsible">
+				<h3>Penyejuk Hati</h3>	
+				<ul data-role="listview">
+					<li><a href="hati.html" data-ajax="false">Penyejuk Hati</a></li>
+				</ul>	
+			</div>
+			
+			<div data-role="collapsible">
+				<h3>Kisah Islam</h3>	
+				<ul data-role="listview">
+					<li><a href="sejarah.html" data-ajax="false">Sejarah Islam</a></li>
+					<li><a href="jejak.html" data-ajax="false">Jejak Islam</a></li>
+				</ul>	
+			</div>
+			
+			<div data-role="collapsible">
+				<h3>Kolom Ulama</h3>	
+				<ul data-role="listview">
+					<li><a href="nasehat.html" data-ajax="false">Nasehat Ulama</a></li>
+					<li><a href="fatwa.html" data-ajax="false">Fatwa Ulama</a></li>
+					<li><a href="biografi.html" data-ajax="false">Biografi Ulama</a></li>
+				</ul>	
+			</div>
+			
+			<div data-role="collapsible">
+				<h3>Keluarga</h3>	
+				<ul data-role="listview">
+					<li><a href="keluarga.html" data-ajax="false">Keluarga Islam</a></li>
+					<li><a href="muslimah.html" data-ajax="false">Muslimah</a></li>
+				</ul>	
+			</div>
+			
+			<div data-role="collapsible">
+				<h3>Info Islami</h3>	
+				<ul data-role="listview">
+					<li><a href="ti.html" data-ajax="false">Kolom TI</a></li>
+					<li><a href="kajian.html" data-ajax="false">Kajian</a></li>
+					<li><a href="lembaga.html" data-ajax="false">Lembaga Pendidian</a></li>
+					<li><a href="lowongan.html" data-ajax="false">Lowongan Kerja</a></li>
+				</ul>	
+			</div>
+			
+		</div>
+		
+		<p><a href="http://muslim.or.id/tentang-kami" data-rel="external" data-role="button" data-theme="b">Tentang Kami</a></p>
+		<p><a href="index.html" id="btnExit" data-role="button" data-theme="e">Keluar</a></p>
+			
+	</div><!-- /content -->
+
+</div><!-- /page -->
+
+</body>
+</html>
