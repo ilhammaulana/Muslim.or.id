@@ -4,5 +4,5 @@ Aplikasi Mobile cross platform untuk website Muslim.or.id yang dibangun oleh kaw
 
 Teknologi:
 - HTML 5 + CSS (JQuery Mobile) --> http://jquerymobile.com
-- Java/JS --> (JQuery, Cordova/Phonegap) --> http://phonegap.com
+- Java/JS (JQuery, Cordova/Phonegap) --> http://phonegap.com
 - Eclipse ADT (Android Development Tools) --> http://developer.android.com/sdk
